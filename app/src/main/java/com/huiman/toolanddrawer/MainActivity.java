@@ -53,8 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
             , "List Item15", "List Item16", "List Item17", "List Item18"};
 
     /**
-     * this is change
-     * has added
+     * this is change on 2016/12/15 16:00
      * @param savedInstanceState
      */
 

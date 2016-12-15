@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@mipmap/ic_search"
+        android:title="搜索"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/menu2"
+        android:icon="@mipmap/ic_notifications"
+        android:title="提醒"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/ic_menu_more_overflow"
+        android:title="more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu3"
+                android:title="设置" />
+            <item
+                android:id="@+id/menu4"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>
